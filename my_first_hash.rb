@@ -11,8 +11,14 @@ def retrieval
 end
 
 def adding
+<<<<<<< HEAD
   hash = shipping_manifest
   hash['muskets'] = 2
   hash['gun powder'] = 4
   hash
+=======
+  shipping_manifest['muskets'] = 2
+  shipping_manifest['gun powder'] = 4
+  shipping_manifest
+>>>>>>> 67bc347b68db01d721cfddde7351c8c8e4464332
 end
